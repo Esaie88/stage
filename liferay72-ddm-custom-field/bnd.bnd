@@ -1,0 +1,19 @@
+Bundle-Name: liferay72-ddm-custom-field-mvn
+Bundle-SymbolicName: liferay72.ddm.custom.field.mvn
+Bundle-Version: 1.0.0
+Bundle-Vendor: LiferaySavvy
+-contract: JavaPortlet,JavaServlet
+-jsp: *.jsp,*.jspf
+-metatype: *
+-plugin.jsp: com.liferay.ant.bnd.jsp.JspAnalyzerPlugin
+-plugin.resourcebundle: com.liferay.ant.bnd.resource.bundle.ResourceBundleLoaderAnalyzerPlugin
+-plugin.sass: com.liferay.ant.bnd.sass.SassAnalyzerPlugin
+-sass: *
+Export-Package: \
+com.liferaysavvy.ddm.customfield.constants,\
+com.liferaysavvy.ddm.customfield,\
+com.liferaysavvy.ddm.dependencies.alloy,\
+com.liferaysavvy.ddm.dependencies.ddm,\
+com.liferaysavvy.ddm.dependencies.readonly
+_dsannotations: *
+Liferay-JS-Config: /META-INF/resources/js/config.js
